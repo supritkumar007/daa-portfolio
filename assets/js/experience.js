@@ -20,7 +20,7 @@ const exp = [
   },
   {
     title: "What kind of algorithms have you studied?",
-    cardImage: "assets/images/experience-page/types.jpg",
+    cardImage: "assets/images/experience-page/types1.jpg",
     place: "",
     time: "",
     desp: "<li>Sorting and Searching: Organizing data (e.g., Bubble Sort, Quick Sort, Merge Sort) and finding items (e.g., Binary Search, KMP Algorithm)..</li><li>Graph Algorithms: Shortest path algorithms (Dijkstra’s, Bellman-Ford) and Minimum Spanning Trees (Prim’s, Kruskal’s).</li><li>Pathfinding: Algorithms to determine routes (e.g., Floyd-Warshall).</li><li>Optimization Problems: Knapsack, Travelling Salesperson Problem, and Huffman Coding.</li><li>Recursion and Backtracking: Problem-solving using function calls (e.g., N-Queens Problem).</li><li>String Matching: Algorithms like Rabin-Karp, Boyer-Moore, and Brute Force for searching patterns in text.</li><li>Divide and Conquer: Techniques like Merge Sort and Strassen’s Matrix Multiplication.</li><li>Dynamic Programming: Solving problems by breaking them into overlapping subproblems (e.g., Fibonacci, Longest Common Subsequence).</li>",
@@ -45,7 +45,7 @@ const showCards2 = () => {
         <article class="card-body">
           <header>
             <div class="title">
-              <h3>${title}</h3>
+              <h3 style="color:#976FC7;font-weight:bold;">${title}</h3>
             </div>
             <p class="meta">
               <span class="pre-heading">${place}</span><br>

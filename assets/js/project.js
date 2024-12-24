@@ -72,7 +72,7 @@ const volunteershipcards = [
   },
   {
     title: "Amogh Talawar",
-    cardImage: "assets/images/experience-page/amogh.png",
+    cardImage: "assets/images/experience-page/amogh1.jpg",
     description:
       "<li>Affordable Housing Development.</li><li>Digital Infrastructure Upgrade</li>",
   }

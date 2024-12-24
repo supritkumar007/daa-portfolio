@@ -23,11 +23,11 @@ let header = $(`
 
 <div class="collapse navbar-collapse " id="navbarSupportedContent">
   <ul class="navbar-nav ml-auto" id = "navbar-content">
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Home</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="experience.html">About-Course</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Projects</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Research</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Personal-Details</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html" style="font-size:18px">Home</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="experience.html" style="font-size:18px">About-Course</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html" style="font-size:18px">Projects</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html" style="font-size:18px">Research</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html" style="font-size:18px">Personal-Details</a></li>
    
    <li class="nav-item">
    <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
@@ -155,7 +155,10 @@ let footer = $(`
     </div>
 
 
-    <center><h5 style="color:#976FC7; font-weight:bold">Developed by</h5><h4 style="color:white; font-weight:bold"> SUPRITKUMAR R P</h4></center>
+    <center>
+      <h5 style="color:#976FC7; font-weight:bold;  margin:0.5em 0;">Developed by</h5>
+      <h4 style="color:white; font-weight:bold; margin:0.5em 0;">SUPRITKUMAR R P</h4>
+    </center>
 
     <div class="rounded-social-buttons tag">
     <a class="social-button twitter" href="https://x.com/Supritkumar_rp?t=owqggSRaY8lnljQRu4Y5jA&s=09" target="_blank">
@@ -227,7 +230,7 @@ let footer = $(`
     </a>
 
 
-© 2024 DESIGN AND ANALYSIS OF ALGORITHMS. All rights reserved.
+
     <a class="social-button instagram" href="https://www.instagram.com/supritkumar_rp/profilecard/?igsh=MTN3ODQzajk5OW5pdg==" target="_blank" >
     <!-- svg code for instagram icon -->
       <svg class="instagram-icon-footer" x="0px" y="0px" viewBox="0 0 202.5 202.5"
@@ -252,6 +255,9 @@ let footer = $(`
                                     c6,5.1,10.8,11.5,13.8,18.8c2.9,7.4,7.7,24.1,41.5,17.8" />
     </svg>
     </a>
+    <div style="text-align: center; font-size: 18px; color: white; background-color: #333; padding: 10px;">
+      © 2024 DESIGN AND ANALYSIS OF ALGORITHMS. All rights reserved.
+    </div>
 
 
     

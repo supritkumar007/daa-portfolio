@@ -18,11 +18,11 @@ const volunteershipcards = [
     cardImage: "assets/images/experience-page/suprit.png",
     description:
       "<br/>USN - 01FE24BCS415.<br/><br/>Rollno - 465",
-    link: "supritkumar.html" // Add the link to the person's page here
+    link: "course-reflection.html" // Add the link to the person's page here
   },
   {
     title: "Amogh Talawar",
-    cardImage: "assets/images/experience-page/amogh.png",
+    cardImage: "assets/images/experience-page/amogh1.jpg",
     description:
       "<br/>USN - 01FE24BCS414.<br/><br/>Rollno - 464",
     link: "amogh.html" // Add the link to the person's page here
