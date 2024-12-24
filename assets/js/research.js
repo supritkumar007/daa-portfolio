@@ -22,7 +22,7 @@ const volunteershipcards = [
   },
   {
     title: "Amogh Talawar",
-    cardImage: "assets/images/experience-page/amogh1.jpg",
+    cardImage: "assets/images/experience-page/amogh.png",
     description:
       "<br/>USN - 01FE24BCS414.<br/><br/>Rollno - 464",
     link: "amogh.html" // Add the link to the person's page here

@@ -9,14 +9,14 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
     title: "Provide the details of problem space and how it was arrived at. Summarize the findings from white paper. Reflect on city design and how business cases were identified.",
-    cardImage: "assets/images/experience-page/empathize.avif",
+    cardImage: "assets/images/experience-page/plan.jpg",
     place: "",
     time: "",
     desp: "<li></li>",
   },
   {
     title: "Provide problem definition and team details",
-    cardImage: "assets/images/experience-page/types.jpg",
+    cardImage: "assets/images/experience-page/team.jpg",
     place: "",
     time: "",
     desp: "<li></li>",
@@ -62,19 +62,19 @@ const volunteershipcards = [
     title: "Pratham Honnappanavar",
     cardImage: "assets/images/experience-page/pratham.png",
     description:
-      "<li>Smart Traffic Management.</li><li>Efficient Waste Management System.</li>",
+      "<li style='margin-top:-25px'>Smart Patient Allocation System.</li><li>Emergency Response Optimization.</li>",
   },
   {
     title: "Supritkumar R P",
     cardImage: "assets/images/experience-page/suprit.png",
     description:
-      "<li>Clean Water Access.</li><li>Renewable Energy Project.</li>",
+      "<li>Sustainable Facility Management.</li><li>Dynamic Patient Scheduling System</li>",
   },
   {
     title: "Amogh Talawar",
-    cardImage: "assets/images/experience-page/amogh1.jpg",
+    cardImage: "assets/images/experience-page/amogh.png",
     description:
-      "<li>Affordable Housing Development.</li><li>Digital Infrastructure Upgrade</li>",
+      "<li>Autonomous Medical Equipment Dispatch.</li><li>Resource Allocation for Surgeries.</li>",
   }
 ];
 
