@@ -7,51 +7,50 @@ AOS.init();
 
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
+  // {
+  //   title: "Provide the details of problem space and how it was arrived at. Summarize the findings from white paper. Reflect on city design and how business cases were identified.",
+  //   cardImage: "assets/images/experience-page/plan.jpg",
+  //   place: "",
+  //   time: "",
+  //   desp: "<li></li>",
+  // },
   {
-    title: "Provide the details of problem space and how it was arrived at. Summarize the findings from white paper. Reflect on city design and how business cases were identified.",
-    cardImage: "assets/images/experience-page/plan.jpg",
-    place: "",
-    time: "",
-    desp: "<li></li>",
-  },
-  {
-    title: "Provide problem definition and team details",
+    title: "Provide problem definition",
     cardImage: "assets/images/experience-page/team.jpg",
     place: "",
     time: "",
-    desp: "<li></li>",
+    desp: "The main problem in hospital optimization is the lack of modern infrastructure and advanced technology, leading to inefficiencies in healthcare delivery, long patient wait times, and limited access to quality treatment. Optimizing hospitals is essential to enhance healthcare services, improve patient outcomes, reduce operational costs, and ensure equitable access to medical care for all.",
   }
 ];
 
 const showCards2 = () => {
   let output = "";
+
   exp.forEach(
     ({ title, cardImage, place, time, desp }) =>
-      (output += `        
-    <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400"> 
+      (output += `
+    <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400">
       <div class="card card1">
         <img src="${cardImage}" class="featured-image"/>
         <article class="card-body">
           <header>
-            <div class="title">
+            <div class="title" style="margin-bottom: 10px;">
               <h3>${title}</h3>
             </div>
-            <p class="meta">
-              <span class="pre-heading">${place}</span><br>
-              <span class="author">${time}</span>
-            </p>
-            <ol>
+            <ol style="margin-top: -30px; line-height: 1.6;text-align:justify">
               ${desp}
             </ol>
           </header>
         </article>
       </div>
     </div>
-      `)
-  );
+  `));
+
   experiencecards.innerHTML = output;
 };
+
 document.addEventListener("DOMContentLoaded", showCards2);
+
 
 
 // Volunteership Cards
@@ -62,20 +61,21 @@ const volunteershipcards = [
     title: "Pratham Honnappanavar",
     cardImage: "assets/images/experience-page/pratham.png",
     description:
-      "<li style='margin-top:-25px'>Smart Patient Allocation System.</li><li>Emergency Response Optimization.</li>",
+      "<a href='https://www.google.com/' class='hover-link'><li style='margin-top:-45px'>Smart Patient Allocation System.</li></a><br><a href='https://www.youtube.com/' class='hover-link'><li>Emergency Response Optimization</li></a><style>.hover-link {color: black; font-size:18px;text-decoration: none;font-weight:boler;transition: all 0.3s ease-in-out;}.hover-link:hover {color: white;text-decoration: underline;font-weight: bolder;}</style>",
   },
   {
     title: "Supritkumar R P",
     cardImage: "assets/images/experience-page/suprit.png",
     description:
-      "<li>Sustainable Facility Management.</li><li>Dynamic Patient Scheduling System</li>",
+      "<a href='business-case1.html' class='hover-link'><li style='margin-top:-25px'>Sustainable Facility Management.</li></a><br><a href='https://www.youtube.com/' class='hover-link'><li>Dynamic Patient Scheduling System</li></a><style>.hover-link {color: black; font-size:18px;transition: all 0.3s ease-in-out;}.hover-link:hover {color: white;text-decoration:underline;font-weight: bolder;}</style>",
   },
   {
     title: "Amogh Talawar",
     cardImage: "assets/images/experience-page/amogh.png",
     description:
-      "<li>Autonomous Medical Equipment Dispatch.</li><li>Resource Allocation for Surgeries.</li>",
+      "<a href='https://www.google.com/' class='hover-link'><li style='margin-top:-25px'>Autonomous Medical Equipment Dispatch.</li></a><br><a href='https://www.youtube.com/' class='hover-link'><li>Resource Allocation for Surgeries</li></a><style>.hover-link {color: black; font-size:18px;text-decoration: none;font-weight:boler;transition: all 0.3s ease-in-out;}.hover-link:hover {color: white;text-decoration: underline;font-weight: bolder;}</style>",
   }
+  
 ];
 
 const showCards = () => {

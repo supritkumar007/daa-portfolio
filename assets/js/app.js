@@ -18,7 +18,6 @@ let header = $(`
     <span class="second"></span>
     <span class="third"></span>
   </div>
-
 </div>
 
 <div class="collapse navbar-collapse " id="navbarSupportedContent">
