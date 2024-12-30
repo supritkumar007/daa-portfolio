@@ -11,7 +11,7 @@ const volunteershipcards = [
     cardImage: "assets/images/experience-page/pratham.png",
     description:
       "<br/>USN - 01FE24BCS404.<br/><br/>Rollno - 454",
-    link: "pratham.html" // Add the link to the person's page here
+    link: "https://pratham00091.github.io/prathamhonnappanavar/pratham.html" // Add the link to the person's page here
   },
   {
     title: "Supritkumar <br/> R P",
@@ -25,7 +25,7 @@ const volunteershipcards = [
     cardImage: "assets/images/experience-page/amogh.png",
     description:
       "<br/>USN - 01FE24BCS414.<br/><br/>Rollno - 464",
-    link: "amogh.html" // Add the link to the person's page here
+    link: "https://amoghtalawar.github.io/DAA/Course_Reflex.html" // Add the link to the person's page here
   }
 ];
 

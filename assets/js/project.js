@@ -61,19 +61,19 @@ const volunteershipcards = [
     title: "Pratham Honnappanavar",
     cardImage: "assets/images/experience-page/pratham.png",
     description:
-      "<a href='https://www.google.com/' class='hover-link'><li style='margin-top:-45px'>Smart Patient Allocation System.</li></a><br><a href='https://www.youtube.com/' class='hover-link'><li>Emergency Response Optimization</li></a><style>.hover-link {color: black; font-size:18px;text-decoration: none;font-weight:boler;transition: all 0.3s ease-in-out;}.hover-link:hover {color: white;text-decoration: underline;font-weight: bolder;}</style>",
+      "<a href='https://pratham00091.github.io/prathamhonnappanavar/smartpatient.html' class='hover-link'><li style='margin-top:-45px'>Smart Patient Allocation System.</li></a><br><a href='https://pratham00091.github.io/prathamhonnappanavar/Emergency.html' class='hover-link'><li>Emergency Response Optimization</li></a><style>.hover-link {color: black; font-size:18px;text-decoration: none;font-weight:boler;transition: all 0.3s ease-in-out;}.hover-link:hover {color: white;text-decoration: underline;font-weight: bolder;}</style>",
   },
   {
     title: "Supritkumar R P",
     cardImage: "assets/images/experience-page/suprit.png",
     description:
-      "<a href='business-case1.html' class='hover-link'><li style='margin-top:-25px'>Sustainable Facility Management.</li></a><br><a href='https://www.youtube.com/' class='hover-link'><li>Dynamic Patient Scheduling System</li></a><style>.hover-link {color: black; font-size:18px;transition: all 0.3s ease-in-out;}.hover-link:hover {color: white;text-decoration:underline;font-weight: bolder;}</style>",
+      "<a href='business-case1.html' class='hover-link'><li style='margin-top:-25px'>Sustainable Facility Management.</li></a><br><a href='business-case2.html' class='hover-link'><li>Dynamic Patient Scheduling System</li></a><style>.hover-link {color: black; font-size:18px;transition: all 0.3s ease-in-out;}.hover-link:hover {color: white;text-decoration:underline;font-weight: bolder;}</style>",
   },
   {
     title: "Amogh Talawar",
     cardImage: "assets/images/experience-page/amogh.png",
     description:
-      "<a href='https://www.google.com/' class='hover-link'><li style='margin-top:-25px'>Autonomous Medical Equipment Dispatch.</li></a><br><a href='https://www.youtube.com/' class='hover-link'><li>Resource Allocation for Surgeries</li></a><style>.hover-link {color: black; font-size:18px;text-decoration: none;font-weight:boler;transition: all 0.3s ease-in-out;}.hover-link:hover {color: white;text-decoration: underline;font-weight: bolder;}</style>",
+      "<a href='https://amoghtalawar.github.io/DAA/bussinesscase.html' class='hover-link'><li style='margin-top:-25px'>Autonomous Medical Equipment Dispatch.</li></a><br><a href='https://amoghtalawar.github.io/DAA/bussinesscase.html' class='hover-link'><li>Resource Allocation for Surgeries</li></a><style>.hover-link {color: black; font-size:18px;text-decoration: none;font-weight:boler;transition: all 0.3s ease-in-out;}.hover-link:hover {color: white;text-decoration: underline;font-weight: bolder;}</style>",
   }
   
 ];
